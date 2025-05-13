@@ -82,7 +82,16 @@ bar_chart <- ggplot(steps_taken_by_days, aes(x = Weekday, y = totalsteps, fill =
   theme_minimal()
 
 bar_chart + theme(legend.position = "none")
-```r
+```
+
 
 ### Tracking Steps By days
+
+[weekly_steps_chart.png](https://github.com/saud123/Bellabeat-case-study/blob/main/Steps%20per%20week.png)
+
+Activity is highest mid-week (Tuesday to Thursday), reflecting the structure of workdays, while it drops on Sundays due to the unstructured weekend. A slight decline on Fridays may result from transitioning to weekend routines, with a rebound in steps on Mondays as users return to structured schedules.
+
+
+
+
 
