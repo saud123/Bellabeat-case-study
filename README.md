@@ -60,7 +60,7 @@ Data is from 2016 and may not reflect current trends.
 - R (RStudio)  
 - Libraries: `tidyverse`, `lubridate`, `ggplot2`, `psych`, `skimr`
 
-### Sample Code Snippet
+### Prepare & Clean Data
 
 ```r
 # Load and prepare data
@@ -68,4 +68,21 @@ data <- read_csv("dailyActivity_merged.csv")
 data$ActivityDate <- mdy(data$ActivityDate)
 names(data) <- tolower(names(data))
 daily_activity <- data %>% mutate(Weekday = weekdays(activitydate))
+```
+
+### Tracking Steps By days
+
+```r
+bar_chart <- ggplot(steps_taken_by_days, aes(x = Weekday, y = totalsteps, fill = Weekday)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Total Steps Taken Each Day of the Week",
+       x = "Day of the Week",
+       y = "Total Steps") +
+  scale_fill_brewer(palette = "Set3") +
+  theme_minimal()
+
+bar_chart + theme(legend.position = "none")
+```r
+
+### Tracking Steps By days
 
