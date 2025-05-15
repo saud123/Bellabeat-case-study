@@ -181,10 +181,14 @@ ggplot(activity_long, aes(x = Weekday, y = value, fill = activity_metric)) +
         axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis labels by 45 degrees
 
 ```
-
 ![Total Steps, Distance & Calories](https://raw.githubusercontent.com/saud123/Bellabeat-case-study/main/total%20steps%2C%20distance%20%26%20calories.png)
 
-#Heart Rate Activity
+- Activity peaks on weekends (Saturday and Sunday) with the highest calories burned, total distance, and steps, while Tuesday and Thursday show the lowest activity levels.
+
+- Midweek activity (Wednesday) sees a moderate increase, suggesting opportunities to encourage more consistent movement on lower-activity days like Tuesday and Thursday.
+
+
+## Heart Rate Activity
 
 ```r
 
