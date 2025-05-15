@@ -276,6 +276,8 @@ The heart rate data reveals distinct daily patterns. A morning surge between 6â€
 
 Explore the interactive dashboard visualizing user activity, heart rate patterns, and engagement trends to support data-driven decision-making:
 
+
+
 [View Bellabeat Tableau Dashboard](https://public.tableau.com/app/profile/saud.ijaz/viz/GooglesDataAnalyticsBellabeat-PortoflioCaseStudy/Dashboard1)
 
 
