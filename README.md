@@ -235,3 +235,42 @@ The heart rate data reveals distinct daily patterns. A morning surge between 6�
 
 
 
+### 📌 Key Insights (Summarized):
+
+- User Activity Peaks Midweek: Physical activity (steps, calories, distance) is highest between Tuesday and Thursday, with noticeable drops on weekends.
+
+- Strong Link Between Activity & Calorie Burn: There’s a clear positive correlation between total steps, active minutes, and calories burned, confirming physical movement drives energy expenditure.
+
+- Distinct Daily Heart Rate Patterns: Heart rate peaks during morning (6–10 AM) and evening hours (5–8 PM), with noticeable dips during sleep and afternoon hours, indicating consistent physiological routines.
+
+
+## ✅ Recommendations for the Act Stage
+
+### Optimize Push Notifications Around Peak Activity Windows
+- Deliver motivational messages, workout suggestions, or reminders during **6–10 AM** and **5–8 PM** to align with natural user energy cycles.
+- Avoid sending prompts late at night or during early morning rest hours (**12–3 AM**) to prevent disturbance.
+
+### Launch a Midweek Challenge Campaign
+- Introduce initiatives like **"Wellness Wednesdays"** to leverage midweek activity spikes and incentivize consistent user engagement.
+- Offer rewards or badges for consistent activity from **Tuesday to Thursday** to help build healthy habits.
+
+### Create Smart Nudges During Inactive Periods
+- Send gentle reminders on weekends and Friday evenings when user activity typically drops, encouraging light workouts or mindfulness sessions.
+- Use inactivity tracking to trigger personalized nudges, such as step goals or hydration breaks.
+
+### Personalize Goals Based on Heart Rate & Step Trends
+- Recommend rest days or lower-intensity activities when low heart rate and steps are detected (e.g., Sunday slumps).
+- Encourage users to sync heart rate data to monitor recovery and adapt their routines accordingly.
+
+### Seasonal & Event-Aware Engagement
+- Utilize historical trends (e.g., low activity around holidays or weather disruptions) to prepare campaigns offering indoor fitness tips, stretching routines, or guided meditation content during such periods.
+
+
+## 📊 Tableau Dashboard
+
+Explore the interactive dashboard visualizing user activity, heart rate patterns, and engagement trends to support data-driven decision-making:
+
+[View Bellabeat Tableau Dashboard](https://public.tableau.com/app/profile/saud.ijaz/viz/GooglesDataAnalyticsBellabeat-PortoflioCaseStudy/Dashboard1)
+
+
+
