@@ -10,7 +10,7 @@ This case study is part of the Google Data Analytics Professional Certificate on
 
 Bellabeat wants to improve user engagement by identifying when and how users interact with fitness devices. The challenge is to extract behavioral trends from usage data that inform marketing efforts.
 
-# 📌 Executive Summary
+## 📌 Executive Summary
 In this case study, I analyzed smart device usage data from 30 Fitbit users to uncover patterns in physical activity, sleep, and heart rate that could inform Bellabeat’s marketing strategy. The analysis revealed key trends, such as increased activity on weekends and a strong correlation between consistent sleep and higher step counts. These insights can help Bellabeat better tailor its app content, push notifications, and product positioning to encourage healthier habits and improve user engagement
 
 ## 💬 Ask Phase
